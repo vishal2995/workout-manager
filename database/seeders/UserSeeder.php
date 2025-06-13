@@ -21,6 +21,15 @@ class UserSeeder extends Seeder
         ]);
         $admin->assignRole('admin');
 
+        $user = User::factory()->create([
+            'name' => 'Vishal Patel',
+            'email' => 'vishal@example.com',
+            'email_verified_at' => now(),
+            'password' => Hash::make('password'),
+            'remember_token' => Str::random(10),
+        ]);
+        $user->assignRole('user');
+
         User::factory()->count(3)->create()->each(function ($user) {
             $user->assignRole('user');
         });
