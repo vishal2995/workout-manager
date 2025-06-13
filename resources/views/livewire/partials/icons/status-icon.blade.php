@@ -1,0 +1,7 @@
+<span>
+    @if ($isActive)
+        <svg clip-rule="evenodd" class="h-5 w-5" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 2.54 2.54" xmlns="http://www.w3.org/2000/svg" id="fi_14025537"><g id="图层_x0020_1"><circle cx="1.27" cy="1.27" fill="#48b02c" r="1.27"></circle><path d="m1.90275 1.03316c-.00108.00116-.00218.00232-.00331.00345l-.73054.73054c-.01562.01562-.03445.0263-.05446.03203-.0435.01299-.09299.00255-.12689-.03134l-.43143-.43143c-.049-.04901-.04945-.13014 0-.1796l.00001-.00001c.04946-.04945.13014-.04945.1796 0l.34209.34209.7265-.7265c.04945-.04946.13041-.04918.17959 0l.00001.00001c.04918.04918.04918.13041 0 .17959z" fill="#fff"></path></g></svg>
+    @else
+        <svg viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" id="fi_15526491"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle cx="12" cy="12" fill="#cf1f25" r="11"></circle><path d="m13.42 12 3.23-3.23a1 1 0 1 0 -1.41-1.41l-3.24 3.23-3.22-3.23a1 1 0 1 0 -1.42 1.41l3.23 3.23-3.23 3.23a1 1 0 1 0 1.41 1.41l3.23-3.22 3.23 3.23a1 1 0 0 0 1.41-1.41z" fill="#fff"></path><path d="m0 0h24v24h-24z" fill="none"></path></g></g></svg>
+    @endif
+</span>
